@@ -1,0 +1,17 @@
+{
+  "name": "face-site-copy",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run open",
+    "open": "concurrently  \" node server.js\" \"http-server -a localhost -p 3505\" "
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "ws": "^8.4.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "http-server": "^14.1.0"
+  }
+}
